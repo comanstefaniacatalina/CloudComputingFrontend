@@ -28,7 +28,7 @@ function MessagesSubmit() {
                 });
 
                 if(response.status === 200) {
-                    alert(`Your original messages was in ${response.data.translationData.originalLanguage}. \nMessage sent: ${response.data.translationData.translatedText}`);
+                    alert(`Message sent: ${response.data.translationData.translatedText}`);
                 }
         }
         catch (error) {
