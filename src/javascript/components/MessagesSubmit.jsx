@@ -28,7 +28,7 @@ function MessagesSubmit() {
                 });
 
                 if(response.status === 200) {
-                    alert(`Message sent: ${response.data.translationData.translatedText}`);
+                    alert("Da, nu merge");
                 }
         }
         catch (error) {
