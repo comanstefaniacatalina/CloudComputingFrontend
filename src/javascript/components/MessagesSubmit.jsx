@@ -25,10 +25,11 @@ function MessagesSubmit() {
                     receiverCountry,
                     receiverMail,
                     messageContent
-                });
+                })
+                console.log(response);
 
-                if(response.status === 200) {
-                    alert("Da, nu merge");
+                if(response.status ) {
+                    alert(`Message sent: ${response.data.traslationData.traslatedText}`);
                 }
         }
         catch (error) {
