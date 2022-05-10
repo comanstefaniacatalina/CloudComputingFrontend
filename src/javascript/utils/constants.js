@@ -19,4 +19,4 @@ export const LANGUAGES_ARRAY = [
     'CHINESE TRADITIONAL'
 ];
 
-export const DEFAULT_MAIL = "insertyourmailhere";
+export const DEFAULT_MAIL = "guritaalexandru18@stud.ase.ro";
