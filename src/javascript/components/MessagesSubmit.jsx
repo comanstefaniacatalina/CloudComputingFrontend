@@ -25,11 +25,11 @@ function MessagesSubmit() {
                     receiverCountry,
                     receiverMail,
                     messageContent
-                })
-                console.log(response);
+                });
 
-                if(response.status ) {
-                    alert(`Message sent: ${response.data.traslationData.traslatedText}`);
+                if(response.status === 200) {
+                    alert(`Your original messages was in ${response.data.translationData.originalLanguage}. \nMessage sent: ${response.data.translationData.translatedText}`);
+                    //alert("da")
                 }
         }
         catch (error) {
